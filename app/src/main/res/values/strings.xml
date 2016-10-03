@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Formulary</string>
+    <string name="text_test">Test</string>
+    <string name="text_math">Math</string>
+    <string name="text_physics">Physics</string>
+    <string name="text_statistics">Statistics</string>
+    <string name="text_chemistry">Chemistry</string>
+    <string name="text_electricalengineering">Electrical Engineering</string>
+</resources>
