@@ -6,4 +6,12 @@
     <string name="text_statistics">Statistics</string>
     <string name="text_chemistry">Chemistry</string>
     <string name="text_electricalengineering">Electrical Engineering</string>
+
+    <string-array name="formularyoptions">
+        <item>Math</item>
+        <item>Physics</item>
+        <item>Statistics</item>
+        <item>Chemistry</item>
+        <item>Electrical Engineering</item>
+    </string-array>
 </resources>

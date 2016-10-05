@@ -14,7 +14,7 @@ public class FormularyOptionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulary_options);
 
-        String[] formularyoptions = { "Math", "Physics", "Statistics", "Chemistry", "Electrical Engineering" };
+        String[] formularyoptions = getResources().getStringArray(R.array.formularyoptions);
         LinearLayout linearlayout = (LinearLayout) findViewById(R.id.layout_linear);
 
         for (String option : formularyoptions) {
