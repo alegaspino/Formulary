@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MathSubjectsActivity" />
-        <activity android:name=".FormularyOptionsActivity"></activity>
+        <activity android:name=".FormularyOptionsActivity" />
+        <activity android:name=".FormulasActivity"></activity>
     </application>
 
 </manifest>

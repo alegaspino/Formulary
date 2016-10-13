@@ -1,17 +1,21 @@
 <resources>
     <string name="app_name">Formulary</string>
     <string name="text_test">Test</string>
-    <string name="text_math">Math</string>
-    <string name="text_physics">Physics</string>
-    <string name="text_statistics">Statistics</string>
-    <string name="text_chemistry">Chemistry</string>
-    <string name="text_electricalengineering">Electrical Engineering</string>
 
     <string-array name="formularyoptions">
-        <item>Math</item>
-        <item>Physics</item>
-        <item>Statistics</item>
-        <item>Chemistry</item>
-        <item>Electrical Engineering</item>
+        <item>Algebra I</item>
+        <item>Geometry</item>
+        <item>Trigonometry</item>
+        <item>Pre-Calculus</item>
+        <item>Calculus</item>
+        <item>Discrete Mathematics</item>
+        <item>Number Theory</item>
+        <item>Kinematics</item>
+        <item>Forces</item>
+        <item>Thermodynamics</item>
+        <item>Circuits</item>
+        <item>General Relativity</item>
+        <item>Special Relativity</item>
+        <item>Quantum Mechanics</item>
     </string-array>
 </resources>
