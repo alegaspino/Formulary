@@ -1,21 +1,19 @@
 <resources>
     <string name="app_name">Formulary</string>
-    <string name="text_test">Test</string>
 
-    <string-array name="formularyoptions">
-        <item>Algebra I</item>
-        <item>Geometry</item>
-        <item>Trigonometry</item>
-        <item>Pre-Calculus</item>
-        <item>Calculus</item>
-        <item>Discrete Mathematics</item>
-        <item>Number Theory</item>
-        <item>Kinematics</item>
-        <item>Forces</item>
-        <item>Thermodynamics</item>
-        <item>Circuits</item>
-        <item>General Relativity</item>
-        <item>Special Relativity</item>
-        <item>Quantum Mechanics</item>
-    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_myformulas">My Formulas</string>
+    <string name="menu_customformulas">Customize Formulas</string>
+    <string name="menu_searchformulas">Search</string>
+
+    <string name="search_testhint">Test</string>
+    <string name="search_testwrite">Write</string>
+    <string name="search_testread">Read</string>
 </resources>

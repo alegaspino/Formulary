@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".SearchFragment">
+
+    <EditText
+        android:id="@+id/search_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textAutoComplete|textAutoCorrect"
+        android:hint="@string/search_testhint" />
+    
+    <Button
+        android:id="@+id/search_buttonwrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_testwrite"
+        android:layout_below="@+id/search_edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/search_buttonread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_testread"
+        android:layout_below="@+id/search_edittext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    
+    <TextView
+        android:id="@+id/search_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Read and Write Test"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
