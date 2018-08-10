@@ -10,10 +10,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.List;
+
+import android.database.Cursor;
 
 public class MainFragment extends Fragment {
 
@@ -31,5 +36,12 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        final ListView listView = getView().findViewById(R.id.fragment_main_listview);
+
+        DatabaseTable databaseTable = new DatabaseTable(getActivity().getApplicationContext());
+        Cursor cursor = databaseTable.getFormulas("*");
+
+        Log.d("MAIN CURSOR", "cursor0="+cursor.getLong(0)+", cursor1="+cursor.getLong(1));
     }
 }

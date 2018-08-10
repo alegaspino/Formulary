@@ -1,0 +1,2 @@
+Distance~d=v*t
+P Theorem~a^2+b^2=c^2

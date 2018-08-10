@@ -8,12 +8,17 @@
     android:layout_marginTop="?attr/actionBarSize"
     tools:context=".CustomFragment">
 
-    <TextView
+    <!-- <TextView
         android:id="@+id/customize_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Formulas"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" /> -->
+
+    <ListView
+        android:id="@+id/fragment_main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
